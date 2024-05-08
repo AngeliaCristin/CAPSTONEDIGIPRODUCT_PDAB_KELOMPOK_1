@@ -58,9 +58,9 @@ def perform_eda(df):
             elif selected_variable == 'FUELCONSUMPTION_CITY':
                 st.markdown("Distribusi dari **Fuel Consumption in City**. Ini adalah distribusi dari konsumsi bahan bakar di kota. Dan dapat dilihat bahwa rata-rata konsumsi bahan bakar dikota paling tinggi yaitu 13 Liter")
             elif selected_variable == 'FUELCONSUMPTION_HWY':
-                st.markdown("Distribusi dari **Fuel Consumption on Highway**. Ini adalah distribusi dari konsumsi bahan bakar di jalan raya. Dan dapat dilihat rata-rata konsumsi bahan bakar di jalan raya paling tinggi yaitu 8 liter")
+                st.markdown("Distribusi dari **Fuel Consumption on Highway**. Ini adalah distribusi dari konsumsi bahan bakar di jalan raya. Dan dapat dilihat rata-rata konsumsi bahan bakar di jalan raya paling tinggi yaitu 8.5 liter")
             elif selected_variable == 'FUELCONSUMPTION_COMB':
-                st.markdown("Distribusi dari **Fuel Consumption Combined**. Ini adalah distribusi dari konsumsi bahan bakar yang dikombinasikan. Dan dapat dilihat rata-rata konsumsi bahan bakar yang dikombinasikan di kota dan di jalan raya yang paling tinggi yaitu 10 Liter")
+                st.markdown("Distribusi dari **Fuel Consumption Combined**. Ini adalah distribusi dari konsumsi bahan bakar yang dikombinasikan. Dan dapat dilihat rata-rata konsumsi bahan bakar yang dikombinasikan di kota dan di jalan raya yang paling tinggi yaitu 10.5 Liter")
             elif selected_variable == 'CO2EMISSIONS':
                 st.markdown("Distribusi dari **C02 EMISSIONS**. Ini adalah distribusi dari Gas CO2 Emissions. Dan dapat dilihat bahwa gas CO2 yang dihasilkan oleh kendaaraan yang paling tinggi bernilai 250")
         else:
