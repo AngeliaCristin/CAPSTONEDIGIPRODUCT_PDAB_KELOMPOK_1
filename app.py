@@ -50,7 +50,7 @@ def perform_eda(df):
             ax.set_title(f'Distribusi {selected_variable}')
             st.pyplot(fig)
             if selected_variable == 'ENGINESIZE':
-                st.markdown("Distribusi dari **Engine Size**. Ini adalah distribusi dari ukuran mesin kendaraan. Dan dapat dilihat nilai ukuran mesin 4 paling tinggi distribusi datanya")
+                st.markdown("Distribusi dari **Engine Size**. Ini adalah distribusi dari ukuran mesin kendaraan. Dan dapat dilihat nilai ukuran mesin 3.5 paling tinggi distribusi datanya")
             elif selected_variable == 'CYLINDERS':
                 st.markdown("Distribusi dari **Cylinders**. Ini adalah distribusi dari jumlah silinder kendaraan. Dan dapat dilihat jumlah silinder 4 dan 6 yang paling tinggi distribusi datanya ")
             elif selected_variable == 'FUELTYPE':
